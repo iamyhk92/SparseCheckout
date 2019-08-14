@@ -1,0 +1,335 @@
+<div *ngIf="showPage">
+  <div class="row">
+    <div class="col-md-6 col-xl-8 p-0">
+      <div class="col-md-6 col-xl-6">
+        <div class="form-group">
+          <label class="mt-1" for="">Select Business entity Contact Person</label>
+          <div class="input-group">
+            <select class="form-control">
+              <option>Vignesh Kumar</option>
+              <option>Rohit B</option>
+              <option>Sams</option>
+            </select>
+            <div class="input-group-append">
+              <button class="btn btn-lg-icon px-2 p-0"> <img src="assets/images/icon-add-blue.svg" class="" width="20px" height="20px"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-xl-12">
+        <table id="example" class="table text-center" style="width:100%">
+          <thead>
+            <tr>
+              <th>Sr.No.</th>
+              <th>Full Name</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-xl-4">
+      <input type="file" id="upload" name="profile_img" style="visibility: hidden;">
+      <a href="" onclick="document.getElementById('upload').click();"> <img class="" src="assets/images/placeholder_02.png" alt="Profile" width="160" height="160" title="uplaod Photo here"> </a>
+    </div>
+    <hr class="light">
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group">
+        <label>Name of the Enterprise</label>
+        <input class="form-control" type="text" value="">
+      </div>
+    </div>
+    <hr class="light">
+    <div class="col-md-12 col-xl-8 p-0">
+      <label class="sec-head">Type of Enterprise</label>
+      <div class="d-flex">
+        <div class="col-md-12 col-xl-6 mt-1">
+          <div class="form-group m-0">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">Sole Proprietorship</label>
+            </div>
+          </div>
+          <div class="form-group m-0">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">Partnership </label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1"> Private Limited Company</label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">Public Limited Company</label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1"> Society</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-6 mt-1">
+          <div class="form-group m-0">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">Trust</label>
+            </div>
+          </div>
+          <div class="form-group m-0">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">LLP </label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1"> HUF</label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1">Co-op Society</label>
+            </div>
+          </div>
+          <div class="form-group m-0 ">
+            <div class="form-check form-check-inline mr-5">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="mt-1" for="inlineRadio1"> Other</label>
+              <input type="text" class="form-control w-auto ml-3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-xl-4 mt-1">
+      <label class="sec-head">Nature of Business</label>
+      <div class="form-group m-0">
+        <div class="form-check form-check-inline mr-5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="mt-1" for="inlineRadio1">Trading</label>
+        </div>
+      </div>
+      <div class="form-group m-0">
+        <div class="form-check form-check-inline mr-5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="mt-1" for="inlineRadio1">Manufacturing </label>
+        </div>
+      </div>
+      <div class="form-group m-0 ">
+        <div class="form-check form-check-inline mr-5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="mt-1" for="inlineRadio1"> Export/Import</label>
+        </div>
+      </div>
+      <div class="form-group m-0 ">
+        <div class="form-check form-check-inline mr-5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="mt-1" for="inlineRadio1">Services</label>
+        </div>
+      </div>
+      <div class="form-group m-0 ">
+        <div class="form-check form-check-inline mr-5">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="mt-1" for="inlineRadio1"> Other</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-xl-12">
+      <h2 class="sec-head"> Contact Information </h2>
+    </div>
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group ">
+        <label>Primary E-mail ID </label>
+        <input class="form-control" type="text" placeholder="">
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group ">
+        <label>E-mail ID </label>
+        <input class="form-control" type="text" placeholder="">
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group ">
+        <label>Primary Contact Number </label>
+        <input class="form-control" type="text" placeholder="">
+      </div>
+    </div>
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group ">
+        <label>Alternate Contact Number </label>
+        <input class="form-control" type="text" placeholder="">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12 col-xl-12">
+      <h2 class="sec-head"> Address Details</h2>
+    </div>
+    <div class="col-md-6  col-xl-4">
+      <div class="form-group">
+        <label>Select Address Type</label>
+        <div class="input-group">
+          <select class="form-control">
+            <option>Branch Office Address</option>
+            <option>Registered Address</option>
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-lg-icon px-2 p-0"> <img src="assets/images/icon-add-blue.svg" class="" width="18px" height="18px"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="light">
+    <div class="col-md-6  col-xl-4">
+      <div class="form-group">
+        <label>Address Line 1</label>
+        <input type="text" value="" class="form-control">
+      </div>
+    </div>
+    <div class="col-md-6  col-xl-4">
+      <div class="form-group">
+        <label>Address Line 2</label>
+        <input type="text" value="" class="form-control">
+      </div>
+    </div>
+
+
+    <div class="col-md-6  col-xl-4">
+      <div class="form-group">
+        <label>City/Village</label>
+        <input type="text" value="" class="form-control">
+      </div>
+    </div>
+    <hr class="light">
+
+    <div class="col-md-6 col-xl-4">
+      <div class="form-group">
+        <label>Country</label>
+        <select id="" class="form-control">
+          <option class="" value="Telangana">India</option>
+          <option class="" value="Andhrapradesh">America</option>
+          <option class="" value="Tamilnadu">Australia</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-md-6  col-xl-4">
+      <div class="d-flex">
+        <div class="col-md-6 col-xl-6 pl-0">
+          <div class="form-group">
+            <label>State</label>
+            <select id="" class="form-control">
+              <option class="" value="Telangana">Telangana</option>
+              <option class="" value="Andhrapradesh">Andhrapradesh</option>
+              <option class="" value="Tamilnadu">Tamilnadu</option>
+              <option class="" value="Kerala">Kerala</option>
+              <option class="" value="Karnataka">Karnataka</option>
+              <option class="" value="Gujarat">Gujarat</option>
+              <option class="" value="Madhyapradesh">Madhyapradesh</option>
+              <option class="" value="Orissa">Orissa</option>
+              <option class="" value="Uttarpradesh">Uttarpradesh</option>
+              <option class="" value="Assam">Assam</option>
+              <option class="" value="Meghalaya">Meghalaya</option>
+              <option class="" value="Punjab">Punjab</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-6 pr-0">
+          <div class="form-group">
+            <label>District</label>
+            <select id="" class="form-control">
+              <option class="" value="Rangareddy">Rangareddy</option>
+              <option class="" value="Medak">Medak</option>
+              <option class="" value="Karimnagar">Karimnagar</option>
+              <option class="" value="Warangal">Warangal</option>
+              <option class="" value="Nizamabad">Nizamabad</option>
+              <option class="" value="Khammam">Khammam</option>
+              <option class="" value="Jagityal">Jagityal</option>
+              <option class="" value="Kamareddy">Kamareddy</option>
+              <option class="" value="Mahabubabad">Mahabubabad</option>
+              <option class="" value="Mahabubnagar">Mahabubnagar</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6  col-xl-4">
+
+      <div class="form-group">
+        <label>Pincode</label>
+        <input type="text" value="" class="form-control">
+      </div>
+
+    </div>
+  </div>
+  <div class="d-flex justify-content-end  mt-4 ml-3 mb-4"> <a href="" data-toggle="tab" class="btn  btn-b-icon px-3 border-0" role="tab" aria-controls="hot" aria-selected="false"><img src="assets/images/icon-add-white.svg" class="mr-3" width="20px" height="20px">Add </a> </div>
+  <hr>
+  <div class="col-md-12 col-xl-12">
+    <table id="example" class="table text-center" style="width:100%">
+      <thead>
+        <tr>
+          <th>Select Primary Address </th>
+          <th>Address Type</th>
+          <th>Address Details</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="individual"></td>
+          <td>Office Address</td>
+          <td>
+            Plot No.2, Madhupala Enclave, Akbar Road,
+            Bowenpally, Secunderabad, Telangana, INDIA - 500 009
+          </td>
+          <td>
+            <a href="#">
+              <div id="icon-edit"></div>
+            </a> <a href="#">
+              <div id="icon-delete"></div>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="individual"></td>
+          <td>Office Address</td>
+          <td>
+            Plot No.2, Madhupala Enclave, Akbar Road,
+            Bowenpally, Secunderabad, Telangana, INDIA - 500 009
+          </td>
+          <td>
+            <a href="#">
+              <div id="icon-edit"></div>
+            </a> <a href="#">
+              <div id="icon-delete"></div>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="d-flex justify-content-end mt-4"> <a href="#" class="btn btn-g-icon mr-4 px-3 border-0"><img src="assets/images/icon-cancel-white.svg" class="mr-3" width="20px" height="20px">Clear</a> <a href="#loanconfig" data-toggle="tab" class="btn btn-b-icon px-3 border-0" role="tab" aria-controls="hot" aria-selected="false"><img src="assets/images/icon-check-white.svg" class="mr-3" width="20px" height="20px">Save</a> </div>
+</div>
